@@ -1,0 +1,16 @@
+.header {
+  width: 100%;
+  min-height: 100px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.header h1 {
+  font-weight: bold;
+}

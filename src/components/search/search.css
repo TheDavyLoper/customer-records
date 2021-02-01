@@ -1,0 +1,21 @@
+label {
+  margin-right: 5px;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #000;
+  font-size: 16px;
+  outline: none;
+}
+
+button {
+  margin-left: 5px;
+  padding: 5px;
+  background-color: #fff;
+  font-size: medium;
+  box-shadow: 2px 2px 2px #000;
+  border-radius: 5px;
+  outline: none;
+}
