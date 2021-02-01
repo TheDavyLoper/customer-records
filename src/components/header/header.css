@@ -1,16 +1,39 @@
 .header {
-  width: 100%;
-  min-height: 100px;
+  min-width: 100vw;
+  min-height: 150px;
   background-color: blueviolet;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  align-items: left;
+  padding-left: 20px;
   color: #fff;
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
 }
 
-.header h1 {
+.header h3 {
+  padding-top: 5px;
   font-weight: bold;
+  font-size: 35px;
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    min-height: 100px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+  }
+
+  .header h3 {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  
 }

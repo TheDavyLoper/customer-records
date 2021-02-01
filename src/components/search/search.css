@@ -19,3 +19,8 @@ button {
   border-radius: 5px;
   outline: none;
 }
+
+.header-item {
+  padding-left: 30px;
+  padding-right: 30px;
+}

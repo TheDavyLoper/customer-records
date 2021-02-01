@@ -4,7 +4,7 @@ import './filter.css'
 function Filter(props) {
 
   return (
-    <div>
+    <div className="header-item">
       <form>
         <label for="filter">filter by</label>
         <input 

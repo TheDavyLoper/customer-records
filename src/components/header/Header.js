@@ -6,7 +6,7 @@ import './header.css'
 function Header(props) {
   return(
     <div className="header">
-      <h1>Customer Records</h1>
+      <h3>Customer Records</h3>
       <Filter handleChange={props.handleChange} state={props.state}/>
       <Search handleChange={props.handleChange} state={props.state} handleSearch={props.handleSearch}/>
       

@@ -2,11 +2,10 @@ label {
   margin-right: 5px;
 }
 
-select {
-  padding: 5px;
-  border-radius: 5px;
-  box-shadow: 2px 2px 2px #000;
-  font-size: 16px;
-  outline: none;
+.header-item {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 

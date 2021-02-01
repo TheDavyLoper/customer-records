@@ -1,6 +1,7 @@
 .records {
   width: 100%;
-  margin-top: 100px;
+  margin-top: 160px;
+  min-height: 100vh;
 }
 
 .records-header {
@@ -8,10 +9,11 @@
   color: blueviolet;
   font-size: 18px;
   font-weight: bold;
+  height: 35px;
 }
 
 .records-header-item {
-  min-width: 260px;
+  min-width: 200px;
   border: 1px solid blueviolet;
 }
 
@@ -21,6 +23,12 @@
 }
 
 .record-item {
-  min-width: 260px;
+  min-width: 200px;
   border: 1px solid blueviolet;
+}
+
+@media only screen and (min-width: 768px) {
+  .records {
+    margin-top: 110px;
+  }
 }

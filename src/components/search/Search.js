@@ -5,7 +5,7 @@ function Search(props) {
   //console.log(props)
   
     return (
-      <div>
+      <div className="header-item">
         <form>
           <label for="search">Search</label>
           <input 
