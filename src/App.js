@@ -21,7 +21,7 @@ class App extends Component {
   componentDidMount() {
     this.setState({loading: true})
     const fetchRecords = () => {
-      fetch('http://localhost/myprojects/enye_records/records.json')
+      fetch('https://api.enye.tech/v1/challenge/records')
       .then(res => res.json())
       .then(data => this.setState({
         records: data.records.profiles,
