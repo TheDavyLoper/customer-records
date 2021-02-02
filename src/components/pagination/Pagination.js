@@ -12,7 +12,7 @@ function Pagination({ recordsPerPage, totalRecords, paginate }) {
         {
           pageNumbers.map(number => {
             return <li key={number} className="page-item">
-              <a href="https://thedavyloper.github.io/customer-records" className="page-link" onClick={() => paginate(number)}>
+              <a className="page-link" onClick={() => paginate(number)}>
                 {number}
               </a>
             </li>
