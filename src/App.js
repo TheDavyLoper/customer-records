@@ -21,7 +21,7 @@ class App extends Component {
   componentDidMount() {
     this.setState({loading: true})
     const fetchRecords = () => {
-      fetch('https://api.enye.tech/v1/challenge/records')
+      fetch('https://thedavyloper.github.io/customer-records-json/records.json')
       .then(res => res.json())
       .then(data => this.setState({
         records: data.records.profiles,
